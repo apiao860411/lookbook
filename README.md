@@ -1,4 +1,4 @@
-# lookbook1
+# lookbook
 
 ## Project setup
 ```
