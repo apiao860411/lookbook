@@ -3,9 +3,11 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
-/* import axios from 'axios'
+import axios from 'axios'
 Vue.prototype.axios = axios;
-
+import $ from 'jquery';
+import ePub from 'epubjs';//电子书阅读器
+/* 
 Vue.filter('setWH',(url , arg)=>{
     return url.replace(/w\.h/,arg);
 });
@@ -15,10 +17,10 @@ Vue.component('Scroller' , Scroller);
 
 import Loading from '@/components/Loading'
 Vue.component('Loading',Loading);
-
+*/
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
-Vue.use(ElementUI); */
+Vue.use(ElementUI); 
 
 Vue.config.productionTip = false
 
